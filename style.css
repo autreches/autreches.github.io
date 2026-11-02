@@ -101,4 +101,7 @@ img.fl,img.fr{width:auto;height:auto}
 @media(max-width:700px){.page .fl,.page .fr{float:none;display:block;max-width:100%;margin:16px auto}.page .fl img,.page .fr img{margin:0 auto}}
 
 .page .tbl{overflow:auto;margin:16px 0}.page .tbl table{border-collapse:collapse;min-width:480px}.page .tbl td,.page .tbl th{border:1px solid var(--line);padding:6px 10px;vertical-align:top}
-.page figure>a>img{border-radius:10px;box-shadow:var(--sh)}
+.page figure>a>img{border-radius:10px;box-shadow:var(--sh)}.armorial .porte{float:right;width:min(380px,42%);height:auto;margin:4px 0 18px 28px;border-radius:12px;box-shadow:var(--sh)}
+.armorial .bl{display:flow-root;min-height:120px;margin:0 0 18px}.armorial .bl img{float:left;width:100px;height:auto;margin:0 20px 6px 0;border-radius:0;box-shadow:none}.armorial .bl p{margin:0}
+@media(max-width:700px){.armorial .porte{float:none;display:block;width:80%;margin:0 auto 18px}}
+footer.site p.vis{margin:8px 0 0}footer.site p.vis img{display:block;border-radius:0}
