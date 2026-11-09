@@ -120,3 +120,15 @@ footer.site p.vis{margin:8px 0 0}footer.site p.vis img{display:block;border-radi
 .page .notes-bas{margin-top:34px;padding-top:12px;border-top:1px solid var(--line)}.notes-bas p{margin:6px 0;max-width:none}
 .page sup a{text-decoration:none}
 @media(max-width:700px){.page ul.cures li{grid-template-columns:1fr;gap:2px}.cures .who,.cures .nt{grid-column:1}}
+
+/* gaucher */
+.page.gaucher figure.fl{width:min(320px,40%);margin:6px 28px 14px 0}
+.page.gaucher figure.fl img{display:block;width:100%;height:auto;border-radius:12px;box-shadow:var(--sh)}
+.page.gaucher figure.fl figcaption{font-size:.92rem;color:var(--mut);margin-top:8px;line-height:1.4}
+.page.gaucher .duo{clear:both;margin:30px 0 10px}
+.page.gaucher .duo div{display:flex;gap:18px;justify-content:center;align-items:flex-start}
+.page.gaucher .duo a{flex:1 1 0;min-width:0}
+.page.gaucher .duo img{display:block;width:100%;height:auto;border-radius:10px;box-shadow:var(--sh)}
+.page.gaucher .duo figcaption{margin-top:10px}
+.page.gaucher p.sign{margin-top:22px;font-weight:600}
+@media(max-width:700px){.page.gaucher figure.fl{float:none;width:78%;margin:16px auto}.page.gaucher .duo div{gap:10px}}
