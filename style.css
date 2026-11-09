@@ -132,3 +132,17 @@ footer.site p.vis{margin:8px 0 0}footer.site p.vis img{display:block;border-radi
 .page.gaucher .duo figcaption{margin-top:10px}
 .page.gaucher p.sign{margin-top:22px;font-weight:600}
 @media(max-width:700px){.page.gaucher figure.fl{float:none;width:78%;margin:16px auto}.page.gaucher .duo div{gap:10px}}
+
+/* armoiries */
+.page.armoiries .bl{display:flex;gap:22px;align-items:flex-start;margin:0 0 20px}
+.page.armoiries .bl img{flex:0 0 124px;width:124px;height:auto;background:#fff;border:1px solid var(--line);border-radius:8px;padding:4px}
+.page.armoiries .bl p{margin:0}
+.page.armoiries ul.couleurs{list-style:none;margin:8px 0 18px;padding:0;max-width:none}
+.page.armoiries ul.couleurs li{display:block;padding:8px 0;border-bottom:1px solid var(--line);max-width:none}
+.page.armoiries ul.couleurs li:last-child{border-bottom:0}
+.page.armoiries .sw{display:inline-block;width:22px;height:22px;border-radius:50%;border:1px solid rgba(0,0,0,.25);vertical-align:middle;margin:-3px 12px 0 0}
+.page.armoiries .n{font-weight:600}.page.armoiries .sy{color:var(--mut)}
+.page.armoiries p.blasonnement{margin:6px 0 14px;padding:12px 18px;border-left:4px solid var(--a);background:#fff;border-radius:0 10px 10px 0;font-style:italic}
+.page.armoiries figure.schema{margin:14px 0 22px;text-align:center}
+.page.armoiries figure.schema img{width:256px;max-width:100%;height:auto;background:#fff;border:1px solid var(--line);border-radius:8px;padding:6px}
+@media(max-width:560px){.page.armoiries .bl{flex-direction:column;align-items:center}.page.armoiries .bl img{flex:none}}
