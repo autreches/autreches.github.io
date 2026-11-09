@@ -105,3 +105,18 @@ img.fl,img.fr{width:auto;height:auto}
 .armorial .bl{display:flow-root;min-height:120px;margin:0 0 18px}.armorial .bl img{float:left;width:100px;height:auto;margin:0 20px 6px 0;border-radius:0;box-shadow:none}.armorial .bl p{margin:0}
 @media(max-width:700px){.armorial .porte{float:none;display:block;width:80%;margin:0 auto 18px}}
 footer.site p.vis{margin:8px 0 0}footer.site p.vis img{display:block;border-radius:0}
+
+/* curés */
+.page ul.cures{list-style:none;margin:6px 0 22px;padding:0;max-width:none}
+.page ul.cures li{display:grid;grid-template-columns:10.5rem 1fr;gap:2px 20px;padding:11px 0;border-bottom:1px solid var(--line);max-width:none}
+.page ul.cures li:last-child{border-bottom:0}
+.cures .d{color:var(--a);font-weight:600;font-variant-numeric:tabular-nums;line-height:1.4}
+.cures .who{grid-column:2;line-height:1.4}
+.cures .n{font-weight:600}
+.cures .f{color:var(--mut)}.cures .f:before{content:" \2014  "}
+.cures .nt{grid-column:2;margin:3px 0 0;font-size:.97rem;max-width:none}
+.page.cures-page h3{font-size:1.02rem;text-transform:uppercase;letter-spacing:.06em;margin:20px 0 4px}
+.page p.ps{font-style:italic;color:var(--mut);margin-top:26px}
+.page .notes-bas{margin-top:34px;padding-top:12px;border-top:1px solid var(--line)}.notes-bas p{margin:6px 0;max-width:none}
+.page sup a{text-decoration:none}
+@media(max-width:700px){.page ul.cures li{grid-template-columns:1fr;gap:2px}.cures .who,.cures .nt{grid-column:1}}
